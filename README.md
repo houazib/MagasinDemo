@@ -27,4 +27,4 @@ ou bien vous construisez le fichier JAR avec:
 
 Aprés vous exécutez le fichier JAR:
 
-java -jar target/demo-0.0.1-SNAPSHOT.jar
+`java -jar target/demo-0.0.1-SNAPSHOT.jar`
