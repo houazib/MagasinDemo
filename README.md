@@ -16,14 +16,14 @@ L'application offre une Api REST pour un magasin
 • Afficher le contenu du panier: http://localhost:8080/api/carts/1
 
 # Comment installer et exécuter
-Vous pouvez rouler l'application avec la commande Maven. Aussi vous pouvez construire un JAR exécutable qui contient toutes les dépendances.
+Vous pouvez rouler l'application avec la commande Maven. Aussi vous pouvez construire un JAR exécutable.
 Aller à la racine de dossier de l'application et taper:
 
-./mvnw spring-boot:run
+`./mvnw spring-boot:run`
 
 ou bien vous construisez le fichier JAR avec:
 
-./mvnw clean package
+`./mvnw clean package`
 
 Aprés vous exécutez le fichier JAR:
 
