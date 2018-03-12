@@ -17,8 +17,11 @@ L'application offre une Api REST pour un magasin
 
 # Connexion et déconnexion de l'utilisateur avec spring security
 pour tester la connexion avec un compte utilisateur, il suffit de cliquer sur lien "Connexion" dans la page d'accueil:
-nom utilisateur: user
-mot de passe: password
+
+nom utilisateur: **user**
+
+mot de passe: **password**
+
 et pour se déconnecter, il suffit de cliquer sur le bouton "Déconnexion" dans l'autre page
 
 
