@@ -1,5 +1,5 @@
 # MagasinDemo
-MagasinDemo est développé avec SpringBoot, Spring Data JPA, Spring Data REST and H2 Memory,
+MagasinDemo est développé avec SpringBoot, Spring Data JPA, Spring Data REST et H2 Memory,
 L'application offre une Api REST pour un magasin
 
 # REST API
