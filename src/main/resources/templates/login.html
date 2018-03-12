@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <title>Page de login </title>
+</head>
+<body>
+
+
+<div>
+
+    <div>
+        <div>
+            <form th:action="@{/login}" method="post">
+                <fieldset>
+                    <h1>svp entrer votre code utilisateur et mot de passe</h1>
+
+                    <div>
+                        <input type="text" name="username" id="username" 
+                               placeholder="Code utilisateur" required="true" autofocus="true"/>
+                    </div>
+                    <div>
+                        <input type="password" name="password" id="password" 
+                               placeholder="Mot de passe" required="true"/>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="submit" value="Connexion"/>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

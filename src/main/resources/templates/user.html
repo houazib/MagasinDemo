@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <title>Page utilisateur </title>
+</head>
+<body>
+
+
+<div>
+
+    <div style="margin-top:20px">
+        <div>
+          <h1>Félicitation vous avez réussi !!!</h1>
+        </div>
+    </div>
+    
+     <div style="margin-top:20px">
+        <div>
+         <form th:action="@{/logout}" method="post">
+           <h2></h2> <input type="submit" value="Déconnexion"/></h2>
+        </form>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
